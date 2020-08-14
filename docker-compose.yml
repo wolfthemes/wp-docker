@@ -21,8 +21,7 @@ services:
         define( 'WP_MEMORY_LIMIT', '128M' );
         ini_set( 'display_errors', 1 );
         error_reporting( E_ALL );
-        /* Multisite */
-        define( 'WP_ALLOW_MULTISITE', true );
+        /* define( 'WP_ALLOW_MULTISITE', true ); */
     ports:
       - 80:80 # Expose http and https
       - 443:443
