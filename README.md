@@ -1,1 +1,1 @@
-Add no-bs barebone docker starter for WordPress mutlisite.
+A no-bs barebone docker starter for WordPress mutlisite.
