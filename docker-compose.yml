@@ -6,7 +6,7 @@ services:
     image: wordpress:latest
     restart: always
     volumes:
-      - /wp-docker:/var/www/html  # mount in d:/Cloud/Dev/wp-docker
+      - /wp-docker:/var/www/html  # mounted via VM
       - /wp-docker/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     environment:
       WORDPRESS_DB_HOST: db:3306
